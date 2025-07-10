@@ -16,8 +16,8 @@ def pre_call_callback():
 
     # Dummy client database (phone -> name)
     client_db = {
-        '966580323262': "Mohammed",
-        '966502104776': "Eyad"
+        '966580323262': "محمد",
+        '966502104776': "اياد"
     }
 
     client_name = client_db.get(client_number)
